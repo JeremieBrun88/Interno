@@ -50,6 +50,8 @@ p {
 .container {
     max-width: 1000px;
     margin: auto;
+    padding: 5px;
+    background-color: blue
 }
 
 /*header*/
@@ -79,4 +81,16 @@ p {
 .margin {
     margin-top: auto;
     align-items: center;
+}
+
+.taille {
+    padding: 80px;
+    ;
+}
+.bouton1 {
+    border-radius: 18px;
+    background-color: #292F36;
+    padding: 26px 31px;
+    color: white;
+    font-weight: 500;
 }
