@@ -8,7 +8,13 @@
 
 a {
     text-decoration: none;
-    color: black;
+    font-family: "Jost", sans-serif;
+    color: #292F36;
+}
+
+
+body {
+    color: #292F36;
 }
 
 li {
@@ -17,23 +23,27 @@ li {
 
 h1 {
     font-family: "DM Serif Display", serif;
-    font-size: 85px;
-   
+    font-size: 75px;
+
 }
 
 h2 {
     font-family: "DM Serif Display", serif;
     font-weight: 50px;
+    margin-bottom: 20px;
 }
+
 h3 {
     font-family: "DM Serif Display", serif;
     font-weight: 22px;
+    margin-bottom: 20px;
 }
 
 p {
     font-family: "Jost", sans-serif;
-    font-size: 22px;
+    font-size: 12px;
 }
+/* debut des flexbox */
 .flex {
     display: flex;
     flex-wrap: wrap;
@@ -47,12 +57,50 @@ p {
     align-items: center;
 }
 
+.gap20 {
+    gap: 20px;
+}
+
+/*fin des flexbox */
+
 .container {
     max-width: 1000px;
     margin: auto;
     padding: 5px;
-    background-color: blue
+
 }
+
+.btn {
+    border-radius: 18px;
+    background-color: #292F36;
+    padding: 26px 31px;
+    color: white;
+    width: 320px;
+    height: 80px;
+    display: inline-block;
+    margin-top: 40px;
+    font-size: 1.3rem;
+}
+
+.width30 {
+    width: 30%;
+}
+
+.width45 {
+    width: 45%;
+}
+
+.paddingTop80 {
+    padding-top: 80px;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+
+
+
 
 /*header*/
 .logo {
@@ -67,6 +115,10 @@ p {
     margin-top: 20px;
 }
 
+header: {
+    margin-top: 20px;
+}
+
 
 /*section hero*/
 
@@ -75,7 +127,13 @@ p {
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
-    border-bottom-left-radius: 200px;
+    border-bottom-left-radius: 0 0 0 200px;
+    padding-top: 100px;
+}
+
+.pHero {
+    font-size: 22px;
+    margin-top: 40px;
 }
 
 .margin {
@@ -85,12 +143,21 @@ p {
 
 .taille {
     padding: 80px;
+    justify-content: center;
     ;
 }
-.bouton1 {
-    border-radius: 18px;
-    background-color: #292F36;
-    padding: 26px 31px;
-    color: white;
-    font-weight: 500;
+
+/* SECTION DEVIS */
+
+
+.imageSectionDevis {
+    border-radius: 0 220px 0 100px;
+}
+
+.pSectionDevis {
+    margin-bottom: 20px;
+}
+
+.iconAppel {
+    width: 25px;
 }
