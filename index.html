@@ -10,8 +10,7 @@
 
 <body>
     <header class="flex top20 alignCenter spaceBetween container">
-        <a href="">
-            <img src="asset/logo.png" alt="Logo Interno" class="Logo">
+        <a href=""><img src="asset/logo.png" alt="Logo Interno" class="Logo">
         </a>
 
         <nav class="menu">
@@ -80,14 +79,14 @@
                 <div class="flex gap20 alignCenter">
                     <img src="asset/Call.png" alt="image de téléphone" class="iconAppel">
                     <div>
-                        <p>
+                        <p class="bold">
                             012345678
                         </p>
                         <p>
                             Apellez-nous n’importe quand
                         </p>
                     </div>
-                   
+
                 </div>
                 <a href="" class="btn">Obtenez un devis gratuit ⮕</a>
 
@@ -96,16 +95,19 @@
 
         </section>
 
-        <!--SECTION 4 ILS NOUS ONT FAIT CONFIANCE-->
-        <section>
-            <div>
-                <h2>
+        <!--SECTION 4 AVIS CLIENTS-->
+        <section class="sectionAvisClient">
+            <div class="container flex spaceBetween">
+                <h2 class="textCenter">
                     Ils nous ont fait confiance
                 </h2>
-                <div>
+
+                <!-- carte avis 1-->
+                <div class="card width20 flex gap20">
                     <img src="asset/user2.png" alt="">
                     <div>
-                        <p>
+                        <!--boite prénom + localisation-->
+                        <p class="nomProfil">
                             Nattasha Mith
                         </p>
                         <p>
@@ -118,13 +120,15 @@
                         suis extrêmement satisfaite du résultat !
                     </p>
 
+
                 </div>
 
-
-                <div>
+                <!-- carte avis 2-->
+                <div class="card width20 flex gap20">
                     <img src="asset/user1.png" alt="">
                     <div>
-                        <p>
+                        <!--boite prénom + localisation-->
+                        <p class="nomProfil">
                             Mary Galario
 
                         </p>
@@ -134,101 +138,76 @@
 
                     </div>
                     <p>
-                        Nous avons fait appel à leur équipe pour concevoir l'intérieur de notre nouveau bureau, et
-                        le résultat est incroyable.
+                        Nous avons fait appel à leur équipe pour concevoir l'intérieur de notre nouveau bureau, et le
+                        résultat est incroyable.
                     </p>
 
-                </div>
 
-                <div>
+                </div>
+                <!-- carte avis 3-->
+                <div class="card width20 flex gap20">
                     <img src="asset/user3.png" alt="">
                     <div>
-                        <div>
-                            <p>
-                                Benny Roll
-                            </p>
-                            <p>
-                                Paris
-                            </p>
-                        </div>
-                        <p>
-                            Une expérience formidable ! Une équipe de designers talentueuse mais également très à
-                            l'écoute des besoins du client.
+                        <!--boite prénom + localisation-->
+                        <p class="nomProfil">
+                            Benny Roll
                         </p>
+                        <p>
+                            Paris
+                        </p>
+
                     </div>
+                    <p>
+                        Une expérience formidable ! Une équipe de designers talentueuse mais également très à l'écoute
+                        des besoins du client.
+                    </p>
+
+
                 </div>
         </section>
 
         <!--SECTION 5 REF-->
-        <section>
-            <a href=""><img src="asset/moderne-home.png" alt=""></a>
+        <section class="container spaceBetween paddingTop80 alignCenter">
+            <a href="">
+                <img src="asset/moderne-home.png" alt="" class="logo"></a>
 
-            <a href=""><img src="asset/vintage.png" alt=""></a>
+            <a href="">
+                <img src="asset/vintage.png" alt="" class="logo"></a>
 
-            <a href=""><img src="asset/brand.png" alt=""></a>
+            <a href="">
+                <img src="asset/brand.png" alt="" class="logo"></a>
 
-            <a href=""><img src="asset/nature-home.png" alt=""></a>
+            <a href="">
+                <img src="asset/nature-home.png" alt="" class="logo"></a>
 
-            <a href=""><img src="asset/classic-design.png" alt=""></a>
-
+            <a href="">
+                <img src="asset/classic-design.png" alt="" class="logo"></a>
 
         </section>
 
-        <!--SECTION 6 NOS PROJETS-->
-        <section>
-            <h2>
+        <!--SECTION 6 PROJETS-->
+        <section class="container paddingTop80">
+            <h2 class="textCenter">
                 Nos projets
             </h2>
-            <p>
+            <p class="textCenter">
                 Explorez notre portfolio pour découvrir l’univers interno.
             </p>
-            <div>
-                <img src="asset/cuisine.jpg" alt="">
-                <div>
-                    <h3>
-                        cuisine
-                    </h3>
-                    <p>
-                        Decor / Artchitecture
-                    </p>
-                    <a href="">⮕</a>
+            <!--boite contenant les cartes projets-->
+            <div class="containerCardProjet flex spaceBetween">
+                <div class="cardProjet width45 flex spaceBetween alignCenter">
+                    <img src="asset/cuisine.jpg" alt="image de cuisine">
+                    <div>
+                        <h3>
+                            cuisine
+                        </h3>
+                        <p>
+                            Decor / Artchitecture
+                        </p>
+
+                    </div>
+                    <a href="petit chevron">⮕</a>
                 </div>
-                <div>
-                    <img src="asset/entree-et-garage.jpg" alt="">
-                    <div>
-                        <h3>
-                            Entrée et garage
-                        </h3>
-                        <p>
-                            Decor / Artchitecture
-                        </p>
-                        <a href="">⮕</a>
-                    </div>
-                    <img src="asset/bureau-et-chambre.jpg" alt="">
-                    <div>
-                        <h3>
-                            bureau-et-chambre
-                        </h3>
-                        <p>
-                            Decor / Artchitecture
-                        </p>
-                        <a href="">⮕</a>
-                    </div>
-                    <div>
-                        <img src="asset/cabinet-et-salon.jpg" alt="">
-                        <div>
-                            <h3>
-                                cabinet-et-salon
-                            </h3>
-                            <p>
-                                Decor / Artchitecture
-                            </p>
-                            <a href="">⮕</a>
-                        </div>
-
-                        <div>
-
-                        </div>
         </section>
 
         <!--SECTION 7 REJOIGNEZ-->
